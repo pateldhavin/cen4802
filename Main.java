@@ -6,6 +6,13 @@ public class Main {
 
   
 
+   
+   /** 
+    * This method calculates and returns the nth term using the recursive method
+    *
+    * @param n
+    * @return int
+    */
    static int fibb(int n){
     if (n<=1)
     return n;
@@ -15,6 +22,10 @@ public class Main {
 
 
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
